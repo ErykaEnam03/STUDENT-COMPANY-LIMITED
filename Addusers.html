@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT COMPANY LIMITED</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.5/css/dataTables.bootstrap5.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  
+    <div class="sidebar" >  
+        <div class="logo"></div>
+        <ul class="menu">       
+            <li class="">
+                <a href="index.html">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="active">
+           <a class="sub-btn" a href="#">
+                    <i class="fas fa-user"></i>
+                <span>Users</span>
+                <i class="fas fa-angle-right dropdown"></i>
+            </a>
+            <div class="submenu">
+                <ul>
+                    <li><i class="fas fa-user"></i> <a href="Manageuser.html">Manage Users</a></li>
+                   <li><i class="fas fa-user"></i><a href="Addusers.html">Add Users</a></li>
+                </ul>
+        </div>
+        </li>
+
+        <li class="calendar">
+            <a href="calendar.html">
+                <i class="fas fa-calendar"></i>
+                <span>Calendar</span>
+            </a>
+        </li>
+
+            <li class="logout">
+                <a href="logout.html">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div> 
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>            
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search"/>
+            </div>
+            <img src="image1.jpg" alt="User Image">
+            </div>
+        </div>
+        <div class="card-container">
+            <h3 class="main--title"></h3>
+            <div class="card-wrapper">
+                <div class="payment--card">
+
+                </div>
+            </div>
+        </div>
+       
+
+
+
+
+
+
+    <section class="container">
+    <form action="#" class="form">
+        <div class="column">
+    <div class="input-box">
+        <label for="firstname">First Name</label>
+        <input type="text" name="name" id="firstname" placeholder="Enter firstname" required>
+    </div>
+
+    <div class="input-box">
+        <label for="lastname">Last Name</label>
+        <input type="text" name="name" id="lastname" placeholder="Enter lastname" required>
+    </div>
+
+    <div class="input-box">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter email" required>
+</div>
+</div>
+    <div class="column">
+    <div class="input-box">
+        <label for="Phone">Phone No</label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter phone number" required>
+    </div>
+    <div class="input-box">
+        <label for="upload">Upload ID</label>
+        <input type="number" name="upload" id="upload" placeholder="Enter ID" required>
+    </div>
+</div>
+
+    <div class="input-box address">
+        <label for="address">Address</label>
+
+    <div class="column">
+        <input type="address" name="address" id="address" placeholder="Enter address" required>
+        <input type="address" name="address" id="address" placeholder="Re-enter address" required>
+
+            <div class="select-box">
+                <select>
+                    <option hidden>Country</option>
+                    <option>Ghana</option>
+                    <option>Togo</option>
+                    <option>Nepal</option>
+                    <option>New Zealand</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="column">
+            <input type="address" name="address" id="address" placeholder="Enter city" required>
+        <input type="address" name="address" id="address" placeholder="Enter region" required>
+    <input type="number" name="address" id="address" placeholder="Enter postal code" required>
+    </div>
+    </div>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</section>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

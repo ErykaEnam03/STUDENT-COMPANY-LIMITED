@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT COMPANY LIMITED</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.5/css/dataTables.bootstrap5.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+   
+    <div class="sidebar" >  
+        <div class="logo"></div>
+        <ul class="menu">       
+            <li class="">
+                <a href="index.html">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="active">
+           <a class="sub-btn" a href="#">
+                    <i class="fas fa-user"></i>
+                <span>Users</span>
+                <i class="fas fa-angle-right dropdown"></i>
+            </a>
+            <div class="submenu">
+                <ul>
+                    <li><i class="fas fa-user active"></i> <a href="Manageuser.html">Manage Users</a></li>
+                   <li><i class="fas fa-user"></i><a href="Addusers.html">Add Users</a></li>
+                </ul>
+        </div>
+        </li>
+
+        <li class="calendar">
+            <a href="calendar.html">
+                <i class="fas fa-calendar"></i>
+                <span>Calendar</span>
+            </a>
+        </li>
+
+            <li class="logout">
+                <a href="logout.html">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div> 
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>            
+            </div>
+            <div class="user--info">
+                <div class="search--box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search"/>
+            </div>
+            <img src="image1.jpg" alt="">
+            </div>
+        </div>
+        <div class="card-container">
+            <h3 class="main--title"></h3>
+            <div class="card-wrapper">
+                <div class="payment--card">
+
+                </div>
+            </div>
+      
+
+
+
+    
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone No</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sunny Ray</td>
+                <td>+233 245 678 9076</td>
+                <td>Learner</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Zion May</td>
+                <td>+233 253 811 0723</td>
+                <td>Intermediate</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Zayn Matty</td>
+                <td>+233 204 108 3913</td>
+                <td>Pro</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Kelly Dey</td>
+                <td>+233 280 421 2760</td>
+                <td>Beginner</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>+233 296 230 4368</td>                                                
+                <td>Starter</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                <td>+233 265 651 2425</td>
+                <td>Normal</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>+233 296 230 4368</td>
+                <td>Starter</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>+233 857 296 4368</td>
+                <td>Beginner</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Colleen Hurst</td>
+                <td>+233 324 296 4368</td>
+                <td>Pro</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <td>Sonya Frost</td>
+                <td>+233 235 895 4368</td>
+                <td>Learner</td>
+                <td>...</td>
+            </tr>
+        </tbody>
+      
+        </table>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
